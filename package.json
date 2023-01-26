@@ -1,0 +1,21 @@
+{
+  "name": "@3divi/open-source-image-api",
+  "description": "A project containing examples of working with the Image API based on various use cases.",
+  "keywords": [
+    "Image API, 3DiVi, Quality Assessment"
+  ],
+  "homepage": "https://3divi.ai/products/software/image-api",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "projects/*"
+  ],
+  "scripts": {
+    "tsc": "lerna run tsc --stream",
+    "watch": "lerna run watch --stream",
+    "btsp": "lerna bootstrap --hoist --ignore-scripts --strict --no-ci && lerna run tsc --stream"
+  },
+  "devDependencies": {
+    "lerna": "^6.3.0"
+  }
+}

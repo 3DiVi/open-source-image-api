@@ -1,0 +1,25 @@
+{
+  "include": ["./src/**/*"],
+  "exclude": [
+    "lib",
+    "node_modules",
+    "build",
+    "scripts",
+    "acceptance-tests",
+    "webpack",
+    "jest",
+    "src/setupTests.ts"
+  ],
+  "extends": "../../ts-compiler-option.json",
+  "compilerOptions": {
+    "outDir": "./lib",
+    "target": "ES6",
+    "lib": [
+      "DOM",
+      "es2021",
+      "DOM.Iterable",
+      "ScriptHost",
+      "ES2016.Array.Include"
+    ]
+  }
+}

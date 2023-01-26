@@ -1,0 +1,44 @@
+{
+  "name": "@3divi/shared",
+  "version": "1.0.0",
+  "private": false,
+  "files": [
+    "lib"
+  ],
+  "main": "./src/index.ts",
+  "types": "./lib/types.d.ts",
+  "scripts": {
+    "tsc": "tsc && vite build",
+    "copy-files": "copyfiles -u 1 src/**/*.html src/**/*.css lib/",
+    "watch": "vite",
+    "cleanbuild": "rm -r node_modules && npm install && tsc"
+  },
+  "dependencies": {
+    "tslib": "2.4.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-router-dom": "^6.4.2",
+    "@chakra-ui/react": "^2.3.6",
+    "@apollo/client": "^3.7.0",
+    "graphql": "^16.6.0",
+    "react-i18next": "^11.16.4",
+    "react-day-picker": "^8.3.6",
+    "date-fns": "^2.29.3",
+    "phosphor-react": "^1.4.1",
+    "react-webcam": "7.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.6",
+    "@types/react": "^18.0.23",
+    "@types/react-dom": "^18.0.7",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.8.4",
+    "copyfiles": "^2.4.1",
+    "@vitejs/plugin-react": "^2.1.0",
+    "vite": "^3.1.8",
+    "vite-plugin-checker": "^0.5.1"
+  },
+  "optionalDependencies": {
+    "esbuild": "^0.15.12"
+  }
+}

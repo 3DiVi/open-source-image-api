@@ -1,0 +1,11 @@
+setupProxy.js
+node_modules
+build
+package-lock.json
+.vscode
+*.DS_Store
+*.yml
+*.yaml
+*.html
+*.css
+*.json
