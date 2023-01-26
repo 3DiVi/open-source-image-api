@@ -1,10 +1,10 @@
 # About project
 
-The Open Source Image API is a repository that contains examples of using the Image API.
+The Open Source Image API is a repository that contains examples of using the 3DiVi Image API.
 
-The Image API is a set of functionality that allows you to process images with detectors and get the information you are interested in.
+3DiVi Image API recognizes faces and silhouettes, detects persons' gender, age, emotional state, checks for liveness, estimates image quality, determines face tilt angle and position in a frame, mask presence and eyelid position (open/closed eyes), and provides face matching.
 
-## Image API Features
+## 3DiVi Image API Features
 
 - Face detection
 - Body detection
